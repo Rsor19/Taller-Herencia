@@ -53,7 +53,7 @@ public class App {
                         float valorHoraExtra = Float.parseFloat(JOptionPane.showInputDialog("Valor hora extra:"));
                         float auxilio = Float.parseFloat(JOptionPane.showInputDialog("Auxilio transporte:"));
                         float descuentoSalud = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el descuento de salud de el empleado: "));
-                        float descuentoPension = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el descuento de salud de el empleado: "));
+                        float descuentoPension = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el descuento de pensión de el empleado: "));
 
                         EmpleadoPlanta e = new EmpleadoPlanta(
                                 nombre,
